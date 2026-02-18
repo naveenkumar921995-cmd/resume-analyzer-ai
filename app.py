@@ -1,5 +1,10 @@
 import streamlit as st
+import sys
+import os
+sys.path.append(os.path.abspath("."))
+
 from utils.pdf_parser import extract_text_from_pdf
+
 from utils.text_cleaner import clean_text
 from utils.skill_extractor import extract_skills
 from utils.similarity import calculate_similarity
