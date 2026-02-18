@@ -1,7 +1,9 @@
-import streamlit as st
 import sys
 import os
-sys.path.append(os.path.abspath("."))
+import streamlit as st
+
+# Add project root to Python path
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from utils.pdf_parser import extract_text_from_pdf
 
