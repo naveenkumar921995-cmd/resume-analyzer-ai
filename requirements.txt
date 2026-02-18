@@ -1,0 +1,10 @@
+streamlit
+pymupdf
+pandas
+numpy
+scikit-learn
+sentence-transformers
+python-dotenv
+openai
+google-generativeai
+ollama
